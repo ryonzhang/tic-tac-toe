@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import LikesButton from './components/LikesButton'
+import DigitalClock from './components/DigitalClock'
+import Comment from './components/Comment'
 // class Square extends React.Component {
 //     constructor(props){
 //         super(props);
@@ -125,7 +129,8 @@ class Game extends React.Component {
 // ========================================
 
 ReactDOM.render(
-    <Game />,
+    <Comment/>
+    ,
     document.getElementById('root')
 );
 
